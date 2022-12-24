@@ -265,3 +265,8 @@
       width: calc(100% - 30px); /* Adjust the width to fit within the frame */
     }
   }
+
+  audio {
+    display: none;
+  }
+  
