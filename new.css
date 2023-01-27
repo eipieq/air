@@ -196,7 +196,7 @@
   .homepage-text02 {
     color: rgba(31, 74, 241, 1);
     font-family: 'Apple Garamond Italic';
-    text-decoration: UNDERLINE;
+    text-decoration: none;
   }
   
   @media only screen and (max-width: 768px) {
@@ -205,4 +205,25 @@
       margin: 20px;
     }
   }
+
+  /* unvisited link */
+a:link {
+  color: rgba(31, 74, 241, 1);
+}
+
+/* visited link */
+a:visited {
+  color: rgba(31, 74, 241, 1);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(31, 74, 241, 1);
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: rgba(31, 74, 241, 1);
+}
   
